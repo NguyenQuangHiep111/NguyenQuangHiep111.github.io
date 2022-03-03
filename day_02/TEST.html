@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/day02/css/homework1.css">
+
+   <style>
+      table,
+      tr,
+      td,
+      th {
+         border: 1px solid black;
+      }
+
+      table {
+         border-collapse: double;
+         
+      }
+   </style>
+</head>
+<body>
+   <table>
+      <thead>
+         <tr>
+            <th colspan="2">Đăng ký</th>
+            <!-- <th>Đăng ký</th> -->
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+            <td>Full name</td>
+            <td><input type="text" name="" id="" placeholder="Nhập fullname"></td>
+         </tr>
+
+         <tr>
+            <td>Username</td>
+            <td><input type="text" name="" id="" placeholder="Nhập tên"></td>
+         </tr>
+
+         <tr>
+            <td>Password</td>
+            <td><input type="password" name="" id="" placeholder="Nhập mật khẩu"></td>
+         </tr>
+
+         <tr>
+            <td>Nhập lại Password</td>
+            <td><input type="password" name="" id="" placeholder="Nhập lại mật khẩu"></td>
+         </tr>
+
+         <tr>
+            <td>Giới tính</td>
+            <td>
+               <input type="radio" name="gender" id="male">
+               <label for="male">Nam</label>
+               <input type="radio" name="gender" id="female">
+               <label for="female">Nữ</label>
+            </td>
+         </tr>
+
+         <tr>
+            <td>Ngày sinh</td>
+            <td>
+               <select name="" id="">
+                  <option value="">Ngày 1</option>
+                  <option value="">Ngày 2</option>
+                  <option value="">Ngày 3</option>
+                  <option value="">Ngày 4</option>
+               </select>
+
+               <select name="" id="">
+                  <option value="">Tháng 1</option>
+                  <option value="">Tháng 2</option>
+                  <option value="">Tháng 3</option>
+                  <option value="">Tháng 4</option>
+                  <option value="">Tháng 5</option>
+                  <option value="">Tháng 6</option>
+                  <option value="">Tháng 7</option>
+                  <option value="">Tháng 8</option>
+                  <option value="">Tháng 9</option>
+                  <option value="">Tháng 10</option>
+                  <option value="">Tháng 11</option>
+                  <option value="">Tháng 12</option>
+               </select>
+
+               <select name="" id="">
+                  <option value="">Năm 2015</option>
+                  <option value="">Năm 2016</option>
+                  <option value="">Năm 2017</option>
+                  <option value="">Năm 2018</option>
+                  <option value="">Năm 2019</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td>Địa chỉ</td>
+            <td><textarea name="" id="" cols="20" rows="2"></textarea></td>
+         </tr>
+
+         <tr>
+            <td>Avatar</td>
+            <td><input type="file" name="" id=""></td>
+         </tr>
+
+         <tr>
+            <td>Sở thích</td>
+            <td>
+               <input type="checkbox" name="fav" id="fav1">
+               <lable for="fav1"> Xem phim</lable>
+               <input type="checkbox" name="fav" id="fav2">
+               <lable for="fav2"> Thể thao</lable>
+               <input type="checkbox" name="fav" id="fav3">
+               <lable for="fav3"> Web</lable>
+            </td>
+         </tr>
+         
+         <tr>
+            <td colspan="2">
+               <input type="submit" value="Reset">
+               <input type="submit" value="OK">
+            </td>
+            <!-- <td>
+               <input type="submit" value="Reset">
+               <input type="submit" value="OK">
+            </td> -->
+         </tr>
+      </tbody>
+   </table>
+</body>
+</html>
