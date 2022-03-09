@@ -1,0 +1,187 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap'); */
+
+/* Reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  width: 370px;
+  height: 250px;
+}
+.card {
+  width: 350px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 55%);
+  border-radius: 4px;
+  overflow: hidden;
+  flex-basis: 27.33%;
+  margin : 1rem;
+  
+}
+.content h2 {
+  color: #464646;
+  font-size: 19px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.content .type,
+.content.rating {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+.content .rating i {
+  color: #ffd600;
+}
+.content {
+  padding: 20px;
+  background-color: #fff;
+  
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price p {
+  color: red;
+  font-weight: bold;
+}
+.container{
+  flex-wrap : wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #eaeef1;
+  
+
+}
+.container a {
+text-decoration: none;
+}
+.Tieude{
+  height: 70px;
+   overflow: hidden;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap'); */
+
+/* Reset css */
+
+/* body {
+      font-family: "Roboto", sans-serif;
+    } */
+
+.card1 {
+  /* width: 750px;
+    height: 420px; */
+  /* box-shadow: 0 2px 4px rgb(0 0 0 / 15%); */
+  /* border: 1px solid black; */
+  /* border-radius: 4px; */
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 90%;
+  padding: 50px 0;
+
+  display: flex;
+  flex-direction: row;
+}
+.card-item {
+  flex-basis: 25%;
+}
+.Chusohuuwebsite h2 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Chusohuuwebsite a,
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #919294;
+  line-height: 30px;
+}
+
+.Gioithieu h2 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Gioithieu a,
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #919294;
+  line-height: 30px;
+}
+
+.Tuvantuyensinh h2 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Tuvantuyensinh a,
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #919294;
+  line-height: 30px;
+}
+
+.Diachi h2 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Diachi a,
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #919294;
+  line-height: 30px;
+}
+.cardfull {
+  background-color: #464646;
+}
+
+/* .Diachi .type, .Diachi.rating {
+      color: #757575;
+      font-size:14px;
+      font-weight: 100;
+      margin-bottom : 16px;
+    } */
+
+.Diachi .rating i {
+  margin-right: 10px;
+  font-size: 25px;
+  /* width: 134px;
+      height: 100px; */
+}
+/* .Diachi{
+      padding:20px;
+    } */
+.Diachi .rating a {
+  text-decoration: none;
+}

@@ -1,0 +1,53 @@
+.container {
+    background-color:yellowgreen;
+
+  display: flex;
+  flex-direction: row;
+  /* căn chỉnh item theo trục main */
+  /* justify-content:flex-end;
+  
+  height: 1000px; */
+align-items: baseline;
+justify-content: center;
+
+flex-wrap:  wrap;
+
+align-content: flex;
+
+
+  height: 500px;
+
+
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+
+  margin: 1rem;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* text-align: center;
+  line-height:100px; */
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+ .item1{
+    order: 2;
+    /* flex-grow: 2; */
+} 
+.item4{
+    order: -1;
+    flex-basis: 200px;
+    /* flex-grow: 1;
+    flex-shrink: 2; */
+    align-self:center;
+   
+} 

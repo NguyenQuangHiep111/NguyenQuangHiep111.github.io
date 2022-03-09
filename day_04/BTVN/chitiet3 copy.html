@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lập trình di động đa nền tảng React Native cập nhật 2022</title>
+</head>
+
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      ref
+      errerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<style>
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  margin-left: 500px;
+ 
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+  
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.image img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    
+  
+}
+.support{
+    
+    align-items: center;
+    /* border: 1px solid #f4f4f4; */
+    display: flex;
+    padding: 1rem 1.5rem 2rem;
+    margin-top: 9px;;
+}
+.ND p{
+    margin-left: 1.5rem;
+    
+
+}
+.ND p button{ 
+  box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+  color: #fff;
+  background-color:#007bff;
+  border-color: #007bff;
+  height: 40px ;
+  width: 120px;
+}
+
+.ND p a {
+    
+    font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #01060f;
+  line-height: 30px;
+  
+  
+}
+.NoiDungChinh h2{
+  margin-left: 30px;
+  margin-top: 40px;
+  
+}
+.NoiDungChinh ol p{
+  margin-left: 30px;
+  
+  
+}
+
+.NoiDungChinh li {
+  margin-left: 80px;
+  line-height: 35px
+}
+
+.img{
+    flex-wrap : wrap;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+  line-height: 35px
+}
+
+.img p{
+    margin-top: 300px;
+}
+
+.NoiDungChinh p {
+  margin-left: 40px;
+  line-height: 35px
+}
+
+.full{
+  box-shadow: 0 2px 4px rgb(0 0 0 / 55%);
+  width: 90%;
+  border-radius: 4px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  margin :5rem;
+  margin-top: 20px;
+}
+
+
+</style>
+<body>
+    <div class="button">
+        <button class="button button1">
+          <a href="https://techmaster.vn/" style="text-decoration: none"
+          target="_blank">Trang chủ</a>        
+        </button>
+<button class="button button2">
+  <a href="./b2.html" style="text-decoration: none"
+          target="_blank">Khóa học</a>  
+</button>
+    </div>
+
+
+    <div class="full">
+
+
+
+      <div class="title">
+        <h1 style="margin-left: 30px;"> Java căn bản</h1>
+            </div>
+            <hr>
+        <div>
+        
+            <div class="support">
+                <div class="image">
+                    <img
+                    src="https://media.techmaster.vn/api/static/crop/bv9jp4k51co7nj2mhht0"
+                    alt="Ảnh khóa học"
+                  />
+                </div>
+            
+                <div class="ND">
+                    <p><b>Tư vấn viên :</b><a
+                        href="https://techmaster.vn/author/bub3enc51co7s932dsk0/pham-thi-man"
+                        style="text-decoration: none"
+                        target="_blank"
+                        > Phạm Thị Mẫn</a
+                      ></p>
+                
+                      <p><b>Email :</b><a
+                        href="manpham@techmaster.vn"
+                        style="text-decoration: none"
+                        target="_blank"
+                        > manpham@techmaster.vn</a
+                      ></p>
+                
+                      <p><b>Số điện thoại :</b><a
+                        href="tel:0963023185"
+                        style="text-decoration: none"
+                        target="_blank"
+                        > 0963023185</a
+                      ></p>
+                      <p><button>
+                        <i class="fa-solid fa-phone"></i>
+                        Nhận tư vấn  
+                     </button></p>
+                </div>
+            
+            </div>
+        
+            <hr>
+        
+            <div class="NoiDungChinh">
+              
+              <ol>
+                <p>Khoá học “Java căn bản” 16 buổi dành cho người mới bắt đầu học lập trình. Nó được thiết kế dễ hiểu, trực quan, gồm nhiều ví dụ code minh hoạ ngắn phù hợp với mọi đối tượng học viên nhập môn lập trình.</p>
+                
+                <li>Ngôn ngữ phổ biến số 1 thế giới trong nhiều năm, hiện đứng sau Python. Được nhiều trường đại học trên thế giới sử dụng làm ngôn ngữ lập trình dạy cho sinh viên.</li>
+                <li>Có 3 tỷ thiết bị Android trên thế giới chạy ứng dụng viết trên Java.</li>
+                <li>Có thể lập trình ứng dụng di động Android, desktop JavaFX hay Web application.</li>
+                <li>Được nhiều tập đoàn, công ty tin dùng vì độ ổn định – mức độ sẵn sàng của lập trình viên.</li>
+                
+                <p>Sau khi tốt nghiệp hoàn thành đồ án Java căn bản, bạn sẽ học khoá <a href="https://techmaster.vn/khoa-hoc/j79/khoa-hoc-lap-trinh-java-nang-cao" style="text-decoration: none"
+                  target="_blank"> Java cấu trúc dữ liệu - giải thuật </a> . Đây là khoá học chuẩn bị kiến thức thường được phỏng vấn khi xin việc tại Google, Facebook, Microsoft và nhiều công ty tin học hàng đầu Việt Nam.</p>
+                
+                <h2>YÊU CẦU</h2>
+                <ol>
+                  <li>Bất kỳ đối tượng nào cũng có thể tham gia học lớp căn bản này</li>
+                  <li>Kỹ năng sử dụng vi tính căn bản.</li>
+                  <li>Laptop có kết nối internet và hiểu biết cơ bản về hệ điều hành</li>
+                </ol>
+                <h2>Chú ý</h2>
+                <p>Khoá học được thiết kế ngắn trong 16 buổi với mục đích để học viên làm quen với lập trình, tư duy logic, cảm thấy tự tin để tiếp tục học sâu hơn. Đây là cũng là khoá học tín chỉ trong <a href="https://java.techmaster.vn/" style="text-decoration: none"
+                  target="_blank">  Lộ trình đào tạo Web Full-stack developer sử dụng Java Spring Boot </a></p>
+              </ol>
+        
+              
+        
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>
