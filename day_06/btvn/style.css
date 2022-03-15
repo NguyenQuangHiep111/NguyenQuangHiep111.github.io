@@ -1,0 +1,180 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap'); */
+
+/* Reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+ 
+ 
+}
+.card {
+  width: 350px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 100px; 
+  overflow: hidden;
+  
+  
+
+}
+.card .title {
+  margin-left: 20px;
+}
+.content h2 {
+  color: #464646;
+  font-size: 19px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.clock .rating2 {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 16px;
+  
+  
+}
+
+.clock .rating1{
+  color: #757575;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 16px;
+  display: flex;
+  margin-right: 34px;
+  margin-left: 20px;
+  
+}
+
+
+
+.content {
+  /* padding: 20px; */
+  
+}
+
+.content p {
+  position: relative;
+  bottom: -500px;
+
+  transition: all 0.5s;
+  padding: 20px;
+  
+}
+
+.content:hover p {
+  bottom: 0;
+}
+
+.content h2 {
+  position: relative;
+  bottom: -500px;
+  transition: all 0.5s;
+}
+
+.content:hover h2 {
+  bottom: 0;
+}
+
+.content p {
+  position: relative;
+  bottom: -500px;
+
+  transition: all 0.5s;
+}
+
+
+
+
+
+.card .day {
+    background-color: rgb(226, 125, 43);
+    position: fixed;
+    z-index: 5;
+    border-radius: 150px;
+    width: 50px;
+    height: 50px;
+  
+    text-align: center;
+    left: 788px;
+    bottom: 490px;
+   
+  /* border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle; */
+}
+.card .day p {
+  color: white;
+  margin-top: 10px;
+  font-size:13px;
+}
+
+.card:hover img {
+    transform: scale(1.5);
+    transition: all 0.5s;
+  }
+  
+  
+  
+  .card h2 {
+    position: relative;
+    bottom: -100px;
+    transition: all 0.5s;
+  }
+  
+  .card:hover h2 {
+    bottom: 0;
+    transition: all 0.5s;
+  }
+  
+  .card p {
+    position: relative;
+    bottom: -100px;
+  
+    transition: all 0.5s;
+  }
+  
+  .card:hover p {
+    bottom: 0;
+    transition: all 0.5s;
+    
+    
+  }
+  .card:hover {
+    background-color:white;
+  }
+  .content .photo p{
+    background-color: rgb(226, 125, 43);
+    color: white;
+    
+    
+    width: 80px;
+    height: 10px;
+    
+  
+    text-align: center;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+    /* left: 788px;
+    bottom: 490px;
+    position: fixed; */
+    /* border-radius: 150px; */
+  }
+  .clock{
+    display: flex;
+   
+  }
