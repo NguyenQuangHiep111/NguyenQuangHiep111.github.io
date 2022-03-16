@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+
+    /* animation-name: animation;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: animation 4s 2s infinite alternate;
+    /* animation: crescendo 0.5s alternate infinite ease-in; */
+
+    position: relative;
+}
+
+@keyframes animation {
+    /* from{
+        transform: translateX(0);
+        background-color:black;
+    }
+    to{
+        transform: translateX(200px);
+        background-color:red;
+    } */
+
+    0%{
+        /* transform: translateX(0);
+        transform: translateY(0); */
+        background-color:black;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        /* transform: translateX(200px);
+        transform: translateY(0); */
+        background-color:red;
+        top: 0px;
+        left: 200px;
+    }
+    50%{
+        /* transform: translateX(200px);
+        transform: translateY(0); */
+        background-color:red;
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        /* transform: translateX(0);
+        transform: translateY(200px); */
+        background-color:yellow;
+        top: 200px;
+        left: 0;
+    }
+    100%{
+        /* transform: translateY(200px); */
+        background-color:black;
+        top: 0;
+        left: 0;
+    }
+}

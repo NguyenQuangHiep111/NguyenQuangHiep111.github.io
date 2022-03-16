@@ -25,6 +25,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 16px;
+
+    
+      
+      position: sticky;
+      z-index: 10;
+      top: 0;
+      
+      
+  
   }
   
   .logo {
