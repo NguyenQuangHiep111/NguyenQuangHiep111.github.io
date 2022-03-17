@@ -330,7 +330,14 @@ ul {
   color: #464646;
   text-align: center;
   padding: 0.7rem 1rem;
+ 
 }
+.sub-menu  li a {
+  text-decoration: none;
+  color:black;
+ 
+}
+
 
 .sub-menu li:hover {
   background-color: #c4c4c4;
@@ -448,7 +455,8 @@ bottom: 0;
 
 
 .messenger i{
-  color:#919294;
+  /* background-color: #eaeef1; */
+  color:rgb(88, 88, 238);
   font-size:50px;
   position: fixed;
   z-index: 5;
