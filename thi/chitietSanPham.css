@@ -185,7 +185,7 @@ p {
   line-height: 30px;
 }
 .cardfull {
-  background-color: #fed100;
+  background-color: #FFCC00;
 }
 
 /* .Diachi .type, .Diachi.rating {
@@ -525,6 +525,7 @@ ul {
 .ND {
   margin-bottom: 300px;
   height: 130px;
+  margin-left: 55px;
 }
 .ND p {
   margin-left: 1.5rem;

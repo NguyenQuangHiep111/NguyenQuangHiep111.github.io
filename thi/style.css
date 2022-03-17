@@ -189,7 +189,7 @@ p {
   line-height: 30px;
 }
 .cardfull {
-  background-color:#fed100;
+  background-color:#FFBF00;
 }
 
 /* .Diachi .type, .Diachi.rating {
@@ -212,7 +212,7 @@ p {
   text-decoration: none;
 }
 .image:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 
