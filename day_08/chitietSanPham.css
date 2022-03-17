@@ -644,6 +644,7 @@ a:visited {
   margin-bottom: 20px;
   margin-left: 71px;
 }
+
 .title h1 {
   text-align: center;
 
@@ -683,4 +684,5 @@ a:visited {
 .sub-menu li a {
   text-decoration: none;
   color: black;
+  
 }
