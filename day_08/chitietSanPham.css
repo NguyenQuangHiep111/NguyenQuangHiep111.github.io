@@ -673,16 +673,14 @@ a:visited {
   transform: scale(1.2);
 }
 .options:hover item {
-  
 }
 .item:hover {
-    background-color: orange;
-    color: white;
-    transform: scale(1.1);
-  }
+  background-color: orange;
+  color: white;
+  transform: scale(1.1);
+}
 
-  .sub-menu  li a {
-    text-decoration: none;
-    color:black;
-   
-  }
+.sub-menu li a {
+  text-decoration: none;
+  color: black;
+}
