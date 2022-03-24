@@ -1,0 +1,50 @@
+@mixin myalign {
+    top: 50%;
+    position: absolute;
+    transform: translate(0%, -50%);
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: #302E2E;
+    height: 60px;
+    position: relative;
+}
+.nav {
+    @include myalign;
+    margin: 0;
+    padding: 0;
+    right: 11%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    line-height: 30px;
+}
+li {
+    float: left;
+    a {
+        padding-left: 50px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer
+    }
+}
+.title {
+    @include myalign;
+    left: 11%;
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+i {
+    font-size: 20px;
+    transform: translate(-5px, 5px);
+}
